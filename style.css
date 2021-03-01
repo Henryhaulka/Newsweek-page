@@ -42,6 +42,12 @@ img {
 
 li {
   list-style: none;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center;
+  text-align: center;
 }
 
 input {
@@ -64,15 +70,6 @@ input {
   background-color: #f72210;
   border-left: 12px solid white;
   border-top: 13px solid #f72210;
-}
-
-li {
-  height: 55px;
-  display: flex;
-  align-items: center;
-  flex-grow: 1;
-  justify-content: center;
-  text-align: center;
 }
 
 li a {
@@ -136,6 +133,7 @@ li a {
   color: grey;
   font-size: 0.7rem;
 }
+
 .icons a,
 .icons a:hover {
   color: #333;
@@ -175,16 +173,20 @@ li a {
   .container-header {
     display: none;
   }
+
   .logo-header-img {
     width: 200px;
     height: 40px;
   }
+
   #date {
     display: none !important;
   }
+
   .head1 {
     align-items: center;
   }
+
   #buttons {
     margin-top: 0 !important;
   }
@@ -208,6 +210,7 @@ li a {
   .link1 {
     display: none;
   }
+
   #sub-btn {
     display: none !important;
   }
