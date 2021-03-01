@@ -19,7 +19,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <header class="container-fluid">
+    <header class="container">
       <div class="d-flex head1 justify-content-between text-white">
         <div class="p-2 d-flex align-items-end ml-3">
           <p>Wed, jan 20,2021</p>
@@ -33,12 +33,44 @@
         <div
           class="p-2 d-flex justify-content-between d-flex align-items-center mt-3"
         >
-          <a href="" class="mt-2 text-white font-weight-bold">LOGIN</a>
-          <button class="btn btn-warning mx-3">
-            SUBSCRIBE<i class="fas fa-angle-right"></i>
+          <a href="" class="text-white link1 font-weight-bold">LOGIN</a>
+          <button
+            id="sub-btn"
+            class="btn mx-3 d-flex align-items-center font-weight-bold"
+          >
+            SUBSCRIBE<i class="fas fa-angle-right ml-1"></i>
           </button>
         </div>
       </div>
     </header>
+    <div class="container">
+      <div
+        class="header-bottom d-flex justify-content-around position-relative font-weight-bold"
+      >
+        <li><a class="first-el">U.S.</a></li>
+        <li><a>World</a></li>
+        <li><a>Business</a></li>
+        <li><a>Tech & Science</a></li>
+        <li><a>Culture</a></li>
+        <li><a>Newsgeek</a></li>
+        <li><a>Sports</a></li>
+        <li><a>Health</a></li>
+        <li><a>The Debate</a></li>
+        <li><a>Experts</a></li>
+        <li><a>Vantage</a></li>
+        <div class="search d-flex align-items-center">
+          <input type="text" placeholder="Search" class="search-content" />
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="header-bottom-right"></div>
+      </div>
+
+      <div class="news">
+        <a href="" class="active">Trending</a><a href="">Joe Biden</a
+        ><a href="">Donald Trump</a><a href="">Inauguration</a
+        ><a href="">Coronavirus</a><a href="">Stimulus Package</a
+        ><a href="">Vaccine</a><a href="">Capital Riots</a>
+      </div>
+    </div>
   </body>
 </html>
