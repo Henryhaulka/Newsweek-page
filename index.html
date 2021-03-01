@@ -21,17 +21,19 @@
   <body>
     <header class="container">
       <div class="d-flex head1 justify-content-between text-white">
-        <div class="p-2 d-flex align-items-end ml-3">
+        <div id="date" class="p-2 d-flex align-items-end ml-3">
           <p>Wed, jan 20,2021</p>
         </div>
         <div class="p-2 d-flex justify-content-between">
           <img
+            class="logo-header-img"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Newsweek_Logo.svg/3000px-Newsweek_Logo.svg.png"
             alt=""
           />
         </div>
         <div
-          class="p-2 d-flex justify-content-between d-flex align-items-center mt-3"
+          id="buttons"
+          class="p-3 d-flex justify-content-between d-flex align-items-center mt-3"
         >
           <a href="" class="text-white link1 font-weight-bold">LOGIN</a>
           <button
@@ -40,10 +42,11 @@
           >
             SUBSCRIBE<i class="fas fa-angle-right ml-1"></i>
           </button>
+          <i class="fas fa-bars d-xl-none"></i>
         </div>
       </div>
     </header>
-    <div class="container">
+    <div class="container container-header">
       <div
         class="header-bottom d-flex justify-content-around position-relative font-weight-bold"
       >
@@ -73,8 +76,8 @@
       </div>
     </div>
     <footer class="container footer1">
-      <div class="d-flex justify-content-between sub-footer">
-        <div class="d-flex">
+      <div class="justify-content-between sub-footer">
+        <div class="sub-footer2">
           <div class="footer-image">
             <a href="">
               <img
@@ -97,24 +100,22 @@
           <a href=""><i class="fab fa-linkedin-in"></i></a>
         </div>
       </div>
-      <div class="footer2 mt-1 mb-1">
+      <div class="footer2 mt-3 mb-1">
         <span class="font-weight-bold"> Edition:</span> &nbsp;
         <a href="#"> US Edition</a> |<a href="#"> 日本</a> |
         <a href="#">Pakistan</a> |<a href=""> Polska </a>|<a href="">
           Romania</a
         >
 
-        <div class="footer-links mb-1 mt-1">
+        <div class="footer-links pb-3 mb-1 mt-1">
           <a href=""> About Us</a> | <a href="">Corrections</a> |
           <a href="">Contact Us</a> | <a href="">Editorial Guidelines</a> |
-          <a href=""> Advertise</a> | <a href="">Copyright</a> |<a href="">
+          <a href="">Advertise</a> | <a href="">Copyright</a> |<a href="">
             Terms & Conditions</a
           >
-          |<a href="">Privacy Policy</a> | <a href=""> Cookies Policies</a> |
+          | <a href="">Privacy Policy</a> | <a href=""> Cookies Policies</a> |
           <a href=""> Terms of Sales</a> |<a href=""> Archives</a> |
-          <div class="mt-1 pb-3">
-            <a href=""> Announcement </a> | <a href="">Consent Preferences</a>
-          </div>
+          <a href=""> Announcement </a> | <a href="">Consent Preferences</a>
         </div>
       </div>
     </footer>
