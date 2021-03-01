@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 400px;
+  height: 80px;
+}
+
+.head1 {
+  background-color: red;
+}
+
+.link1:hover {
+  text-decoration: none;
+}
