@@ -108,7 +108,58 @@ li a {
   padding: 0 10px 0 10px;
 }
 
+.icons {
+  width: 20%;
+}
+
+.footer1 {
+  border-top: 1px solid lightgrey;
+}
+
+.footer2 a {
+  text-decoration: none;
+  color: grey;
+}
+
+.sub-footer,
+.footer2 {
+  width: 90%;
+  margin: auto;
+}
+
+.sub-footer {
+  border-bottom: 1px solid lightgrey;
+}
+
+.footer-links,
+.footer2 {
+  color: grey;
+  font-size: 0.7rem;
+}
+.icons a,
+.icons a:hover {
+  color: #333;
+  font-size: 1.3rem;
+}
+
+.paragraph1 {
+  font-size: x-small;
+  color: grey;
+  padding-bottom: 5px;
+  margin-left: 0;
+}
+
 .news a:hover {
   text-decoration: none;
   color: red;
+}
+
+.footer-image img {
+  width: 200px;
+  height: 80px;
+}
+
+.footer2 a:hover {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
 }
