@@ -19,17 +19,19 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <header class="container">
+    <nav class="container sticky-top">
       <div class="d-flex head1 justify-content-between text-white">
         <div id="date" class="p-2 d-flex align-items-end ml-3">
           <p>Wed, jan 20,2021</p>
         </div>
         <div class="p-2 d-flex justify-content-between">
-          <img
-            class="logo-header-img"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Newsweek_Logo.svg/3000px-Newsweek_Logo.svg.png"
-            alt=""
-          />
+          <a href="">
+            <img
+              class="logo-header-img"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Newsweek_Logo.svg/3000px-Newsweek_Logo.svg.png"
+              alt=""
+            />
+          </a>
         </div>
         <div
           id="buttons"
@@ -39,13 +41,14 @@
           <button
             id="sub-btn"
             class="btn mx-3 d-flex align-items-center font-weight-bold"
+            type="button"
           >
             SUBSCRIBE<i class="fas fa-angle-right ml-1"></i>
           </button>
-          <i class="fas fa-bars d-xl-none"></i>
+          <i class="fas fa-bars d-xl-none d-lg-none"></i>
         </div>
       </div>
-    </header>
+    </nav>
     <div class="container container-header">
       <ul
         class="header-bottom d-flex justify-content-around position-relative font-weight-bold"
@@ -61,21 +64,21 @@
         <li><a>The Debate</a></li>
         <li><a>Experts</a></li>
         <li><a>Vantage</a></li>
-        <div class="search d-flex align-items-center">
+        <form class="search d-flex align-items-center">
           <input type="text" placeholder="Search" class="search-content" />
           <i class="fas fa-search"></i>
-        </div>
-        <div class="header-bottom-right"></div>
+        </form>
+        <li class="header-bottom-right"></li>
       </ul>
 
-      <div class="news">
+      <div class="news text-uppercase">
         <a href="" class="active">Trending</a><a href="">Joe Biden</a
         ><a href="">Donald Trump</a><a href="">Inauguration</a
         ><a href="">Coronavirus</a><a href="">Stimulus Package</a
         ><a href="">Vaccine</a><a href="">Capital Riots</a>
       </div>
     </div>
-    <footer class="container footer1">
+    <footer class="container footer1 fixed-bottom">
       <div class="justify-content-between sub-footer">
         <div class="sub-footer2">
           <div class="footer-image">
