@@ -18,10 +18,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
-  <body>
-    <nav class="container">
+  <body class="m-0 p-0 bg-white">
+    <nav class="container w-70 p-0 bg-white">
       <div class="d-flex head1 justify-content-between text-white">
-        <div id="date" class="p-2 d-flex align-items-end ml-3">
+        <div class="p-2 d-none d-lg-flex align-items-end ml-3 mt-2">
           <p>Wed, jan 20,2021</p>
         </div>
         <div class="p-2 d-flex justify-content-between">
@@ -33,24 +33,24 @@
           /></a>
         </div>
         <div
-          id="buttons"
-          class="p-3 d-flex justify-content-between d-flex align-items-center mt-3"
+          class="p-3 d-flex justify-content-between d-flex align-items-center mt-0"
         >
-          <a href="" class="text-white link1 font-weight-bold">LOGIN</a>
+          <a href="" class="text-white link1 font-weight-bold d-none d-md-block"
+            >LOGIN</a
+          >
           <button
             type="button"
-            id="sub-btn"
-            class="btn mx-3 d-flex align-items-center font-weight-bold"
+            class="mx-3 d-flex align-items-center sub-btn font-weight-bold d-none d-md-block"
           >
             SUBSCRIBE<i class="fas fa-angle-right ml-1"></i>
           </button>
-          <i class="fas fa-bars d-xl-none"></i>
+          <i class="fas fa-bars d-lg-none"></i>
         </div>
       </div>
     </nav>
-    <div class="container container-header">
+    <div class="container d-none d-lg-block">
       <div
-        class="header-bottom d-flex justify-content-around position-relative font-weight-bold"
+        class="d-flex justify-content-around position-relative font-weight-bold"
       >
         <div class="li"><a class="first-el">U.S.</a></div>
         <div class="li"><a>World</a></div>
@@ -71,7 +71,9 @@
         </div>
         <div class="header-bottom-right"></div>
       </div>
-      <div class="news">
+      <div
+        class="news p-2 text-dark font-weight-bold d-flex justify-content-between"
+      >
         <a href="" class="active">Trending</a><a href="">Joe Biden</a
         ><a href="">Donald Trump</a><a href="">Inauguration</a
         ><a href="">Coronavirus</a><a href="">Stimulus Package</a
@@ -81,7 +83,7 @@
 
     <div class="container featured p-3">
       <div class="row">
-        <div class="col-3 first-section">
+        <div class="col-md-3 first-section">
           <div class="gray-text text-secondary">Featured Stories</div>
           <div class="politycs-1 relative">
             <span class="span1 font-weight-bold">U.S.</span>
@@ -94,7 +96,7 @@
             chief strategist Steve Bannon and rapper Lil Wayne.
           </div>
         </div>
-        <div class="col-6 second-section">
+        <div class="col-md-6 second-section">
           <div class="gray-text text-secondary">Top Story</div>
           <div class="politycs-2 relative">
             <span class="span2 font-weight-bold">Politycs</span>
@@ -138,9 +140,9 @@
       </div>
     </div>
 
-    <footer class="container footer1 fixed-bottom">
-      <div class="justify-content-between sub-footer">
-        <div class="sub-footer2">
+    <footer class="container footer1">
+      <div class="justify-content-between d-md-flex d-sm-block w-100">
+        <div class="d-sm-block d-md-flex">
           <div class="footer-image">
             <a href="">
               <img
@@ -149,12 +151,12 @@
               />
             </a>
           </div>
-          <p class="align-self-end paragraph1 justify-self-center">
+          <p class="align-self-end paragraph1">
             <i class="far fa-copyright"></i> 2020 NEWSWEEK
           </p>
         </div>
         <div
-          class="d-flex justify-content-between align-self-center icons mr-3"
+          class="d-flex justify-content-between align-self-center icons w-25 mr-3"
         >
           <a href=""><i class="fab fa-facebook-square"></i></a>
           <a href=""><i class="fab fa-twitter"></i></a>
@@ -163,7 +165,7 @@
           <a href=""><i class="fab fa-linkedin-in"></i></a>
         </div>
       </div>
-      <div class="footer2 mt-3 mb-1">
+      <div class="footer2 w-100 mt-3 mb-1">
         <span class="font-weight-bold"> Edition:</span> &nbsp;
         <a href="#"> US Edition</a> |<a href="#"> 日本</a> |
         <a href="#">Pakistan</a> |<a href=""> Polska </a>|<a href="">
