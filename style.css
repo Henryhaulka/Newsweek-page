@@ -92,11 +92,6 @@ input {
   padding-bottom: 10px;
 }
 
-.featured .first-section img {
-  width: 300px;
-  height: 200px;
-}
-
 .politycs-1 {
   background-image: url("https://lh3.googleusercontent.com/pw/ACtC-3d-11bCgJa9GfympD6yki03aSPmfdpI9Hhg10gpnyaYo5m1TPrETC0CIHUJUmuP6njJY2WJ3DaZfv5sV08Cd2Dha11KBLXV6RzL616sFwJuylzEmkor4Zi_2aGox9OhQFyBlJbaW0XYw4uEIaFDVXxC=w344-h197-no?authuser=0");
   width: 100%;
@@ -137,9 +132,7 @@ input {
   width: 40%;
   height: 63px;
   background-repeat: no-repeat;
-  background-size: cover;
-  background: url("https://lh3.googleusercontent.com/pw/ACtC-3dXqe4OHLhmXVbhDyikNw7HwrueUCi8jFzcpzkle1ny9oJKA7G0CACeFTGpbKqLJCMoSwd365XC8ijFE4utwEYQV07Tw9sVxYQFzGCByskEk7SQMUgmRLJ9Frk3lMBJqvZ4Wz0MC5FQU-XjpwmzeuaF=w80-h66-no?authuser=0")
-    no-repeat;
+  background-image: url("https://lh3.googleusercontent.com/pw/ACtC-3dXqe4OHLhmXVbhDyikNw7HwrueUCi8jFzcpzkle1ny9oJKA7G0CACeFTGpbKqLJCMoSwd365XC8ijFE4utwEYQV07Tw9sVxYQFzGCByskEk7SQMUgmRLJ9Frk3lMBJqvZ4Wz0MC5FQU-XjpwmzeuaF=w80-h66-no?authuser=0");
 }
 
 .avatar-text {
@@ -162,11 +155,6 @@ input {
 
 .avatar-text span {
   color: #565656;
-}
-
-.featured .second-section img {
-  width: 100%;
-  height: 250px;
 }
 
 .footer1 {
@@ -199,11 +187,6 @@ input {
   color: grey;
 }
 
-.news a:hover {
-  text-decoration: none;
-  color: red;
-}
-
 .side-right {
   width: 25%;
 }
@@ -211,6 +194,21 @@ input {
 .footer-image img {
   width: 200px;
   height: 80px;
+}
+
+.featured .second-section img {
+  width: 100%;
+  height: 250px;
+}
+
+.featured .first-section img {
+  width: 300px;
+  height: 200px;
+}
+
+.news a:hover {
+  text-decoration: none;
+  color: red;
 }
 
 .footer2 a:hover {
