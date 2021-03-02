@@ -105,6 +105,88 @@ input {
   padding: 0 10px 0 10px;
 }
 
+.gray-text {
+  color: #030303;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.featured .first-section img {
+  width: 300px;
+  height: 200px;
+}
+
+.politycs-1 {
+  background-image: url("https://lh3.googleusercontent.com/pw/ACtC-3d-11bCgJa9GfympD6yki03aSPmfdpI9Hhg10gpnyaYo5m1TPrETC0CIHUJUmuP6njJY2WJ3DaZfv5sV08Cd2Dha11KBLXV6RzL616sFwJuylzEmkor4Zi_2aGox9OhQFyBlJbaW0XYw4uEIaFDVXxC=w344-h197-no?authuser=0");
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+}
+
+.relative {
+  position: relative;
+}
+
+.politycs-2 {
+  background-image: url("https://lh3.googleusercontent.com/pw/ACtC-3evPym_2diM-TWa12wHPPhE5rSifD2Jtr0-H6JGW3woiuD-4FMCMsmqdyDrI9PRazAAFrz_K8Il6sVg5JoKQwTg_R1DamSqzlcTjM-RYYMjtMgvtxYiziKVRqk2JpkA0Ibyx2RHS_0PeiGzE9vymbYw=w507-h279-no?authuser=0");
+  width: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.politycs-1 span,
+.politycs-2 span {
+  color: #f72210;
+  text-transform: uppercase;
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.debate {
+  border-bottom: 1px solid rgba(3, 3, 3, 0.4);
+}
+
+.avatar-img {
+  width: 40%;
+  height: 63px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: url("https://lh3.googleusercontent.com/pw/ACtC-3dXqe4OHLhmXVbhDyikNw7HwrueUCi8jFzcpzkle1ny9oJKA7G0CACeFTGpbKqLJCMoSwd365XC8ijFE4utwEYQV07Tw9sVxYQFzGCByskEk7SQMUgmRLJ9Frk3lMBJqvZ4Wz0MC5FQU-XjpwmzeuaF=w80-h66-no?authuser=0")
+    no-repeat;
+}
+
+.avatar-text {
+  width: 80%;
+}
+
+.vs {
+  border-bottom: 1px solid rgba(3, 3, 3, 0.4);
+  position: relative;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 14px/32px "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin: 6px auto;
+}
+
+.avatar-text span {
+  color: #565656;
+}
+
+.featured .second-section img {
+  width: 100%;
+  height: 250px;
+}
+
 .icons {
   width: 20%;
 }
