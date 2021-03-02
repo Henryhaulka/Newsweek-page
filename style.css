@@ -151,6 +151,21 @@ input {
     no-repeat;
 }
 
+.new-img {
+  width: 155px;
+  height: 155px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: url("https://lh3.googleusercontent.com/pw/ACtC-3eajmCarUzLLcDrOIAPSq_XTNNL-PSWQy0Ay3MwgyQVLPW933slV9v5KjrNQoUsxNRbJ8etGtZJ29cj4thXVfUhnfuMyoF3UWaPDMK33TrelgJDe_BhtkTUAXKEqN1wItexcuZotRmRPiG4OH-CvQnR=w153-h155-no?authuser=0")
+    no-repeat;
+}
+
+.new-text {
+  width: 155px;
+  color: #6c757d;
+  font-weight: bold;
+}
+
 .avatar-text {
   width: 80%;
 }
@@ -167,6 +182,34 @@ input {
   font: bold 14px/32px "Roboto Condensed", sans-serif;
   text-align: center;
   margin: 6px auto;
+}
+
+.border-b {
+  border-bottom: 4px solid #d9d9d9;
+  padding-bottom: 12px;
+}
+
+.section {
+  padding: 10px 0 10px 0;
+}
+
+.opinion {
+  padding: 10px 0 10px 0;
+}
+
+.opinions-text {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.opinions-text span {
+  color: #555555;
+  font-size: 12px;
+}
+
+.opinions-img {
+  width: 60%;
 }
 
 .avatar-text span {
