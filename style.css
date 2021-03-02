@@ -168,7 +168,6 @@ li a {
   }
 }
 
-
 @media screen and (max-width: 768px) {
   .container-header {
     display: none;
@@ -186,7 +185,6 @@ li a {
   .head1 {
     align-items: center;
   }
-
 
   .icons {
     width: 38%;
@@ -208,8 +206,6 @@ li a {
     margin-top: 0 !important;
   }
 }
-
-
 
 @media (min-width: 992px) {
   .sub-footer,
