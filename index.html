@@ -18,66 +18,210 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
-  <body>
-    <header class="container">
+  <body class="m-0 p-0 bg-white">
+    <nav class="container w-70 p-0 bg-white">
       <div class="d-flex head1 justify-content-between text-white">
-        <div id="date" class="p-2 d-flex align-items-end ml-3">
+        <div class="p-2 d-none d-lg-flex align-items-end ml-3 mt-2">
           <p>Wed, jan 20,2021</p>
         </div>
         <div class="p-2 d-flex justify-content-between">
-          <img
-            class="logo-header-img"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Newsweek_Logo.svg/3000px-Newsweek_Logo.svg.png"
-            alt=""
-          />
+          <a href="/"
+            ><img
+              class="logo-header-img"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Newsweek_Logo.svg/3000px-Newsweek_Logo.svg.png"
+              alt=""
+          /></a>
         </div>
         <div
-          id="buttons"
-          class="p-3 d-flex justify-content-between d-flex align-items-center mt-3"
+          class="p-3 d-flex justify-content-between d-flex align-items-center mt-0"
         >
-          <a href="" class="text-white link1 font-weight-bold">LOGIN</a>
+          <a href="" class="text-white link1 font-weight-bold d-none d-md-block"
+            >LOGIN</a
+          >
           <button
-            id="sub-btn"
-            class="btn mx-3 d-flex align-items-center font-weight-bold"
+            type="button"
+            class="mx-3 d-flex align-items-center sub-btn font-weight-bold d-none d-md-block"
           >
             SUBSCRIBE<i class="fas fa-angle-right ml-1"></i>
           </button>
-          <i class="fas fa-bars d-xl-none"></i>
+          <i class="fas fa-bars d-lg-none"></i>
         </div>
       </div>
-    </header>
-    <div class="container container-header">
-      <ul
-        class="header-bottom d-flex justify-content-around position-relative font-weight-bold"
+    </nav>
+    <div class="container d-none d-lg-block">
+      <div
+        class="d-flex justify-content-around position-relative font-weight-bold"
       >
-        <li><a class="first-el">U.S.</a></li>
-        <li><a>World</a></li>
-        <li><a>Business</a></li>
-        <li><a>Tech & Science</a></li>
-        <li><a>Culture</a></li>
-        <li><a>Newsgeek</a></li>
-        <li><a>Sports</a></li>
-        <li><a>Health</a></li>
-        <li><a>The Debate</a></li>
-        <li><a>Experts</a></li>
-        <li><a>Vantage</a></li>
+        <div class="li"><a class="first-el">U.S.</a></div>
+        <div class="li"><a>World</a></div>
+        <div class="li"><a>Business</a></div>
+        <div class="li"><a>Tech & Science</a></div>
+        <div class="li"><a>Culture</a></div>
+        <div class="li"><a>Newsgeek</a></div>
+        <div class="li"><a>Sports</a></div>
+        <div class="li"><a>Health</a></div>
+        <div class="li"><a>The Debate</a></div>
+        <div class="li"><a>Experts</a></div>
+        <div class="li"><a>Vantage</a></div>
         <div class="search d-flex align-items-center">
-          <input type="text" placeholder="Search" class="search-content" />
+          <form action="submit">
+            <input type="text" placeholder="Search" class="search-content" />
+          </form>
           <i class="fas fa-search"></i>
         </div>
         <div class="header-bottom-right"></div>
-      </ul>
-
-      <div class="news">
+      </div>
+      <div
+        class="news p-2 text-dark font-weight-bold d-flex justify-content-between"
+      >
         <a href="" class="active">Trending</a><a href="">Joe Biden</a
         ><a href="">Donald Trump</a><a href="">Inauguration</a
         ><a href="">Coronavirus</a><a href="">Stimulus Package</a
         ><a href="">Vaccine</a><a href="">Capital Riots</a>
       </div>
     </div>
+
+    <div class="container featured p-3">
+      <div class="row">
+        <div class="col-md-3 first-section">
+          <div class="section">
+            <div class="gray-text text-secondary">Featured Stories</div>
+            <div class="politycs-1 relative">
+              <span class="span1 font-weight-bold">U.S.</span>
+            </div>
+            <h3 class="bold-test">
+              The 73 People Pardoned by Donald Trump on His Last Day As
+              President
+            </h3>
+            <div class="summary">
+              Notable people pardoned by Trump today include former White House
+              chief strategist Steve Bannon and rapper Lil Wayne.
+            </div>
+          </div>
+          <div class="section">
+            <div class="politycs-1 relative">
+              <span class="span1 font-weight-bold">U.S.</span>
+            </div>
+            <h3 class="bold-test">
+              The 73 People Pardoned by Donald Trump on His Last Day As
+              President
+            </h3>
+            <div class="summary">
+              Notable people pardoned by Trump today include former White House
+              chief strategist Steve Bannon and rapper Lil Wayne.
+            </div>
+          </div>
+          <div class="section">
+            <div class="politycs-1 relative">
+              <span class="span1 font-weight-bold">U.S.</span>
+            </div>
+            <h3 class="bold-test">
+              The 73 People Pardoned by Donald Trump on His Last Day As
+              President
+            </h3>
+            <div class="summary">
+              Notable people pardoned by Trump today include former White House
+              chief strategist Steve Bannon and rapper Lil Wayne.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 second-section">
+          <div class="main-new">
+            <div class="gray-text text-secondary">Top Story</div>
+            <div class="politycs-2 relative">
+              <span class="span2 font-weight-bold">Politycs</span>
+            </div>
+            <h3 class="bold-test">
+              The 73 People Pardoned by Donald Trump on His Last Day As
+              President
+            </h3>
+            <div class="summary">
+              Notable people pardoned by Trump today include former White House
+              chief strategist Steve Bannon and rapper Lil Wayne.
+            </div>
+          </div>
+          <div class="my-turn">
+            <div class="gray-text text-secondary pt-3">My turn</div>
+            <div class="turns d-flex">
+              <div class="col-4 p-0">
+                <div class="new-img"></div>
+                <div class="new-text">Why I Accepted Trump's Medal Of Arts</div>
+              </div>
+              <div class="col-4 p-0">
+                <div class="new-img"></div>
+                <div class="new-text">Why I Accepted Trump's Medal Of Arts</div>
+              </div>
+              <div class="col-4 p-0">
+                <div class="new-img"></div>
+                <div class="new-text">Why I Accepted Trump's Medal Of Arts</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 third-section">
+          <div class="gray-text text-secondary debate">The Debate</div>
+          <div class="avatar">
+            <div class="avatar-left d-flex">
+              <div class="avatar-img mt-2"></div>
+              <div class="avatar-text pt-2">
+                Media Have Every Right to Cancel Trump
+                <div class="div">
+                  <span>BY <strong>FROMA HARROP</strong></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="vs mt-3 mb-3">VS</div>
+
+            <div class="avatar-right d-flex border-b">
+              <div class="avatar-text pt-2">
+                After Parler Ban, Rein in Big Tech Now or Cease Being Free
+                Citizens
+                <div class="div">
+                  <span>BY <strong>RACHEL BOVARD</strong></span>
+                </div>
+              </div>
+              <div class="avatar-img mt-2"></div>
+            </div>
+          </div>
+
+          <div class="opinions">
+            <div class="opinion">
+              <div class="gray-text text-secondary pt-3">Opinion</div>
+              <div class="d-flex">
+                <div class="avatar-img mt-2 opinions-img"></div>
+                <div class="opinions-text">
+                  U.S. Supply Chain: Stop Driving Blind
+                  <span>BY FRANK CILLUFFO AND STEWART BAKER</span>
+                </div>
+              </div>
+            </div>
+            <div class="opinion">
+              <div class="d-flex">
+                <div class="avatar-img mt-2 opinions-img"></div>
+                <div class="opinions-text">
+                  U.S. Supply Chain: Stop Driving Blind
+                  <span>BY FRANK CILLUFFO AND STEWART BAKER</span>
+                </div>
+              </div>
+            </div>
+            <div class="opinion">
+              <div class="d-flex">
+                <div class="avatar-img mt-2 opinions-img"></div>
+                <div class="opinions-text">
+                  U.S. Supply Chain: Stop Driving Blind
+                  <span>BY FRANK CILLUFFO AND STEWART BAKER</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <footer class="container footer1">
-      <div class="justify-content-between sub-footer">
-        <div class="sub-footer2">
+      <div class="justify-content-between d-md-flex d-sm-block w-100">
+        <div class="d-sm-block d-md-flex">
           <div class="footer-image">
             <a href="">
               <img
@@ -86,12 +230,12 @@
               />
             </a>
           </div>
-          <p class="align-self-end paragraph1 justify-self-center">
+          <p class="align-self-end paragraph1">
             <i class="far fa-copyright"></i> 2020 NEWSWEEK
           </p>
         </div>
         <div
-          class="d-flex justify-content-between align-self-center icons mr-3"
+          class="d-flex justify-content-between align-self-center icons w-25 mr-3"
         >
           <a href=""><i class="fab fa-facebook-square"></i></a>
           <a href=""><i class="fab fa-twitter"></i></a>
@@ -100,7 +244,7 @@
           <a href=""><i class="fab fa-linkedin-in"></i></a>
         </div>
       </div>
-      <div class="footer2 mt-3 mb-1">
+      <div class="footer2 w-100 mt-3 mb-1">
         <span class="font-weight-bold"> Edition:</span> &nbsp;
         <a href="#"> US Edition</a> |<a href="#"> 日本</a> |
         <a href="#">Pakistan</a> |<a href=""> Polska </a>|<a href="">
