@@ -17,14 +17,15 @@ img {
 
 .sub-btn {
   background-color: #ffe400;
-  border-radius: 10px;
-  padding-top: 0;
+  border-radius: 5px;
+  font-size: xx-small;
+  /*padding-top: 0;
   padding-bottom: 0;
   margin-top: 4px;
   margin-bottom: 4px;
   border: none;
   outline: none;
-  font-size: xx-small;
+  */
 }
 
 .li {
@@ -108,6 +109,7 @@ input {
   width: 100%;
   height: 200px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .relative {
@@ -147,21 +149,6 @@ input {
     no-repeat;
 }
 
-.new-img {
-  width: 155px;
-  height: 155px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background: url("https://lh3.googleusercontent.com/pw/ACtC-3eajmCarUzLLcDrOIAPSq_XTNNL-PSWQy0Ay3MwgyQVLPW933slV9v5KjrNQoUsxNRbJ8etGtZJ29cj4thXVfUhnfuMyoF3UWaPDMK33TrelgJDe_BhtkTUAXKEqN1wItexcuZotRmRPiG4OH-CvQnR=w153-h155-no?authuser=0")
-    no-repeat;
-}
-
-.new-text {
-  width: 155px;
-  color: #6c757d;
-  font-weight: bold;
-}
-
 .avatar-text {
   width: 80%;
 }
@@ -178,34 +165,6 @@ input {
   font: bold 14px/32px "Roboto Condensed", sans-serif;
   text-align: center;
   margin: 6px auto;
-}
-
-.border-b {
-  border-bottom: 4px solid #d9d9d9;
-  padding-bottom: 12px;
-}
-
-.section {
-  padding: 10px 0 10px 0;
-}
-
-.opinion {
-  padding: 10px 0 10px 0;
-}
-
-.opinions-text {
-  display: flex;
-  flex-direction: column;
-  font-weight: bold;
-}
-
-.opinions-text span {
-  color: #555555;
-  font-size: 12px;
-}
-
-.opinions-img {
-  width: 60%;
 }
 
 .avatar-text span {
@@ -252,6 +211,10 @@ input {
   color: red;
 }
 
+.side-right {
+  width: 25%;
+}
+
 .footer-image img {
   width: 200px;
   height: 80px;
@@ -262,20 +225,42 @@ input {
   color: rgb(0, 0, 0);
 }
 
-@media screen and (max-width: 1200px) {
-  .logo-header-img {
-    width: 200px;
-    height: 40px;
-  }
+.icons {
+  width: 30%;
+}
 
+.logo-header-img {
+  width: 300px;
+  height: 60px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .head1 {
     align-items: center;
   }
-}
 
-@media screen and (max-width: 550px) {
-  #sub-btn {
-    display: none !important;
+  .footer2,
+  .footer-links {
+    font-size: small;
   }
 }
 
+@media screen and (max-width: 767px) {
+  .side-right {
+    width: 30%;
+  }
+
+  .logo-header-img {
+    width: 200px;
+    height: 60px;
+  }
+
+  .footer2,
+  .footer-links {
+    font-size: 1rem;
+  }
+
+  .icons {
+    width: 30%;
+  }
+}
