@@ -105,6 +105,11 @@ input {
 .culture-img {
   width: 130px;
   height: 130px;
+<<<<<<< HEAD
+=======
+  background-repeat: no-repeat;
+  background-size: cover;
+>>>>>>> f927595594d069ff301e676060711bf2272c4b45
   background: url("https://lh3.googleusercontent.com/pw/ACtC-3eajmCarUzLLcDrOIAPSq_XTNNL-PSWQy0Ay3MwgyQVLPW933slV9v5KjrNQoUsxNRbJ8etGtZJ29cj4thXVfUhnfuMyoF3UWaPDMK33TrelgJDe_BhtkTUAXKEqN1wItexcuZotRmRPiG4OH-CvQnR=w153-h155-no?authuser=0")
     no-repeat;
   position: relative;
