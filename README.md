@@ -8,7 +8,7 @@ The Newsweek Clone
 
 ## Built With
 
-- HTML & CSS
+- HTML, CSS & Bootstrap
 
 ## Authors
 
@@ -20,16 +20,17 @@ The Newsweek Clone
 👤 **Author**
 
 - GitHub: [@Henryhaulka](https://github.com/Henryhaulka)
+- Twitter: [@ONUHENRY12](https://twitter.com/ONUHENRY12)
+- Linkedin: [Henry Onu](https://www.linkedin.com/in/henry-onu-9a15b11b6/)
 
-## Live Demo
-
-https://MakZ.github.io/Newsweek-page
+[Live Demo Link](https://henryhaulka.github.io/Newsweek-page/)
 
 ## Getting Started
 
 In this project, we will replicate the archived version of the website Newsweek. The main goal of the project is to apply responsive design techniques so that the website behaves differently depending on the size of the screen where the website is displayed.
 
 ### Prerequisites
+
 - Microverse Project Template
 - Lint for CSS and HTML
 
