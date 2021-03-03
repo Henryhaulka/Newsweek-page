@@ -109,7 +109,6 @@ input {
   background: url("https://lh3.googleusercontent.com/pw/ACtC-3eajmCarUzLLcDrOIAPSq_XTNNL-PSWQy0Ay3MwgyQVLPW933slV9v5KjrNQoUsxNRbJ8etGtZJ29cj4thXVfUhnfuMyoF3UWaPDMK33TrelgJDe_BhtkTUAXKEqN1wItexcuZotRmRPiG4OH-CvQnR=w153-h155-no?authuser=0")
     no-repeat;
   position: relative;
-
 }
 
 .culture-img span {
@@ -285,14 +284,12 @@ input {
   right: 0;
   z-index: 1;
   top: 50%;
-
 }
 
 .animal-image {
   width: 100px;
   height: 100%;
 }
-
 
 .deco:before {
   top: calc(50% - 2px);
