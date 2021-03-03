@@ -98,9 +98,13 @@ input {
   padding: 0 10px 0 10px;
 }
 
+.latest-sections {
+  flex-wrap: wrap;
+}
+
 .culture-img {
-  width: 148px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   background-repeat: no-repeat;
   background-size: cover;
   background: url("https://lh3.googleusercontent.com/pw/ACtC-3eajmCarUzLLcDrOIAPSq_XTNNL-PSWQy0Ay3MwgyQVLPW933slV9v5KjrNQoUsxNRbJ8etGtZJ29cj4thXVfUhnfuMyoF3UWaPDMK33TrelgJDe_BhtkTUAXKEqN1wItexcuZotRmRPiG4OH-CvQnR=w153-h155-no?authuser=0")
