@@ -239,8 +239,6 @@ input {
 .avatar-img {
   width: 40%;
   height: 63px;
-  background-repeat: no-repeat;
-  background-size: cover;
   background: url("https://lh3.googleusercontent.com/pw/ACtC-3dXqe4OHLhmXVbhDyikNw7HwrueUCi8jFzcpzkle1ny9oJKA7G0CACeFTGpbKqLJCMoSwd365XC8ijFE4utwEYQV07Tw9sVxYQFzGCByskEk7SQMUgmRLJ9Frk3lMBJqvZ4Wz0MC5FQU-XjpwmzeuaF=w80-h66-no?authuser=0")
     no-repeat;
 }
@@ -275,6 +273,7 @@ input {
   left: 0;
   right: 0;
   z-index: 1;
+  top: calc(50% - 2px);
 }
 
 .deco::after {
@@ -294,10 +293,6 @@ input {
   height: 120px;
 }
 
-.deco::before {
-  top: calc(50% - 2px);
-}
-
 .avatar-text span {
   color: #565656;
 }
@@ -305,8 +300,6 @@ input {
 .sub-img-1 {
   width: 170px;
   height: 227px;
-  background-repeat: no-repeat;
-  background-size: cover;
   background: url("https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1700315/january-15-2021-cover.jpg?w=170&q=95&f=02cc1a3558f7d7b001baea3b926907e7")
     no-repeat;
   padding-right: 290px;
@@ -316,8 +309,6 @@ input {
 .sub-img-2 {
   width: 170px;
   height: 227px;
-  background-repeat: no-repeat;
-  background-size: cover;
   background: url("https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1704591/cover-january-22-2021.jpg?w=170&q=95&f=ee95940a99c02547a13c42e35dbfbc84")
     no-repeat;
   position: absolute;
@@ -347,8 +338,6 @@ input {
 .newsletter-img {
   width: 166px;
   height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
   background: url("https://lh3.googleusercontent.com/pw/ACtC-3diykAsO46bqOaY0dAJUwk4jQxHkmvbnzJUrLytGZZqeV6PLv9o5T-eLhcpuVBw3hhl5orbQ3sgEW8mfKkMSqjdSLwth91RtUg-JMBtIfnG1Xw0kf1pqwnNsWWI4ZM6DLEZ5IwdR5VKrLySbYoBrRp8=w181-h345-no?authuser=0")
     no-repeat;
 }
