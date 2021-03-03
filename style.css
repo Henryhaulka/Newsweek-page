@@ -133,8 +133,6 @@ input {
 .mini-logo {
   width: 30px;
   height: 30px;
-  background-repeat: no-repeat;
-  background-size: cover;
   background: url("https://lh3.googleusercontent.com/pw/ACtC-3cBd3L_-pIMKPG--D3MUn5kQT-CuwTlURq-t2bfboE40nuasBh_5k5U6QRbuL5LkImaNOIGxmyq8iks5zkQv8wx2y66bV4GT7UB6yci9cDiQezbUqodKuDhsvZcXTuGjmC86os8iEwxI-fDIUCOkkjr=w29-h28-no?authuser=0")
     no-repeat;
 }
@@ -142,8 +140,6 @@ input {
 .magazine-img {
   width: 100%;
   height: 200px;
-  background-repeat: no-repeat;
-  background-size: cover;
   background: url("https://lh3.googleusercontent.com/pw/ACtC-3f9WH0cwd18AZEI8ylDsFWcyGTHZcTV_JSho-evMN0ZAyUZVnGUOmwWF3vfX9QFn1JBcXCDYmtSDkWU47nxHRlG9DdHKHsSUiUrITWj8-iD0l5E65NhZa2TGWI4ENuJ6m3LLjTt4-OwirDOg1Jo4PXs=s290-no?authuser=0")
     no-repeat;
   position: relative;
