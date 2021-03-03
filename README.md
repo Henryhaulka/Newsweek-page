@@ -15,7 +15,6 @@ The Newsweek Clone
 👤 **Author**
 
 - GitHub: [@MakZ](https://github.com/MakZ)
-- GitHub: [@Deepakdanger](https://github.com/Deepakdanger)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/maksymilian-zuzel-70101a174/)
 
 👤 **Author**
