@@ -23,7 +23,7 @@ The Newsweek Clone
 - Twitter: [@ONUHENRY12](https://twitter.com/ONUHENRY12)
 - Linkedin: [Henry Onu](https://www.linkedin.com/in/henry-onu-9a15b11b6/)
 
-[Live Demo Link](https://henryhaulka.github.io/Newsweek-page/)
+[Live Demo Link](https://makz.github.io/Newsweek-page/)
 
 ## Getting Started
 
