@@ -403,6 +403,486 @@ input {
   height: 60px;
 }
 
+.nimationA,
+.nA {
+  animation-duration: 600ms;
+  animation-fill-mode: both;
+  transform-origin: center center;
+}
+.nA.infinite,
+.nimationA.infinite {
+  animation-iteration-count: infinite;
+}
+.nA.quick,
+.nimationA.quick {
+  animation-duration: 300ms;
+}
+.nA.normal,
+.nimationA.normal {
+  animation-duration: 600ms;
+}
+.nA.slow,
+.nimationA.slow {
+  animation-duration: 1000ms;
+}
+.nA.very-slow,
+.nimationA.very-slow {
+  animation-duration: 1600ms;
+}
+.nA.zoom-in,
+.nimationA.zoom-in {
+  animation-name: zoom-in;
+}
+.nA.zoom-out,
+.nimationA.zoom-out {
+  animation-name: zoom-out;
+}
+.nA.zoom-out-off,
+.nimationA.zoom-out-off {
+  animation-name: zoom-out-off;
+}
+.nA.fade-in,
+.nimationA.fade-in {
+  animation-name: fade-in;
+}
+.nA.fade-out,
+.nimationA.fade-out {
+  animation-name: fade-out;
+}
+.nA.slide-in-top,
+.nimationA.slide-in-top {
+  animation-name: slide-in-top;
+}
+.nA.slide-in-right,
+.nimationA.slide-in-right {
+  animation-name: slide-in-right;
+}
+.nA.slide-in-bottom,
+.nimationA.slide-in-bottom {
+  animation-name: slide-in-bottom;
+}
+.nA.slide-in-left,
+.nimationA.slide-in-left {
+  animation-name: slide-in-left;
+}
+.nA.slide-out-top,
+.nimationA.slide-out-top {
+  animation-name: slide-out-top;
+}
+.nA.slide-out-right,
+.nimationA.slide-out-right {
+  animation-name: slide-out-right;
+}
+.nA.slide-out-bottom,
+.nimationA.slide-out-bottom {
+  animation-name: slide-out-bottom;
+}
+.nA.slide-out-left,
+.nimationA.slide-out-left {
+  animation-name: slide-out-left;
+}
+.nA.bounce-in,
+.nimationA.bounce-in {
+  animation-name: bounce-in;
+}
+.nA.bounce-in-top,
+.nimationA.bounce-in-top {
+  animation-name: bounce-in-top;
+}
+.nA.bounce-in-right,
+.nimationA.bounce-in-right {
+  animation-name: bounce-in-right;
+}
+.nA.bounce-in-bottom,
+.nimationA.bounce-in-bottom {
+  animation-name: bounce-in-bottom;
+}
+.nA.bounce-in-left,
+.nimationA.bounce-in-left {
+  animation-name: bounce-in-left;
+}
+.nA.flip,
+.nimationA.flip,
+.aA.flip-y,
+.nimationA.flip-y {
+  animation-name: flip;
+}
+.nA.flip-x,
+.nimationA.flip-x {
+  animation-name: flip-x;
+}
+.nA.flip-z,
+.nimationA.flip-z {
+  animation-name: flip-z;
+}
+.nA.hang,
+.nimationA.hang {
+  animation-name: hang;
+}
+.nA.delay-100ms,
+.nimationA.delay-100ms {
+  animation-delay: 100ms;
+}
+.nA.delay-200ms,
+.nimationA.delay-200ms {
+  animation-delay: 200ms;
+}
+.nA.delay-300ms,
+.nimationA.delay-300ms {
+  animation-delay: 200ms;
+}
+.nA.delay-400ms,
+.nimationA.delay-400ms {
+  animation-delay: 300ms;
+}
+.nA.delay-500ms,
+.nimationA.delay-500ms {
+  animation-delay: 500ms;
+}
+.nA.delay-600ms,
+.nimationA.delay-600ms {
+  animation-delay: 600ms;
+}
+.nA.delay-700ms,
+.nimationA.delay-700ms {
+  animation-delay: 700ms;
+}
+.nA.delay-800ms,
+.nimationA.delay-800ms {
+  animation-delay: 800ms;
+}
+.nA.delay-900ms,
+.nimationA.delay-900ms {
+  animation-delay: 900ms;
+}
+.nA.delay-1000ms,
+.nimationA.delay-1000ms,
+.nA.delay-1s,
+.nimationA.delay-1s {
+  animation-delay: 1s;
+}
+.nA.delay-1250ms,
+.nimationA.delay-1250ms {
+  animation-delay: 1500ms;
+}
+.nA.delay-1500ms,
+.nimationA.delay-1500ms {
+  animation-delay: 1500ms;
+}
+.nA.delay-1750ms,
+.nimationA.delay-1750ms {
+  animation-delay: 1750ms;
+}
+.nA.delay-2000ms,
+.nimationA.delay-2000ms,
+.nA.delay-2s,
+.nimationA.delay-2s {
+  animation-delay: 2s;
+}
+.nA.delay-2500ms,
+.nimationA.delay-2500ms {
+  animation-delay: 2500ms;
+}
+.nA.delay-3000ms,
+.nimationA.delay-3000ms,
+.nA.delay-3s,
+.nimationA.delay-3s {
+  animation-delay: 3s;
+}
+@keyframes zoom-in {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes zoom-out {
+  0% {
+    opacity: 0;
+    transform: scale(1.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes zoom-out-off {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes slide-in-top {
+  0% {
+    opacity: 0;
+    transform: translateY(-150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes slide-in-right {
+  0% {
+    opacity: 0;
+    transform: translateX(300px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes slide-in-bottom {
+  0% {
+    opacity: 0;
+    transform: translateY(150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes slide-in-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-300px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes slide-out-top {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-150px);
+  }
+}
+@keyframes slide-out-right {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(300px);
+  }
+}
+@keyframes slide-out-bottom {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(150px);
+  }
+}
+@keyframes slide-out-left {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-300px);
+  }
+}
+@keyframes bounce-in {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  25% {
+    transform: scale(1.2);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(0.8);
+  }
+  70% {
+    transform: scale(1.05);
+  }
+  85% {
+    transform: scale(0.95);
+    animation-timing-function: ease-in-out;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes bounce-in-top {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  25% {
+    transform: translateY(7px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-7px);
+  }
+  70% {
+    transform: translateY(3px);
+  }
+  85% {
+    transform: translateY(-2px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes bounce-in-right {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  25% {
+    transform: translateX(-7px);
+  }
+  47% {
+    opacity: 1;
+    transform: translateX(7px);
+  }
+  70% {
+    transform: translateX(-3px);
+  }
+  85% {
+    transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes bounce-in-bottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  25% {
+    transform: translateY(-7px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(7px);
+  }
+  70% {
+    transform: translateY(-3px);
+  }
+  85% {
+    transform: translateY(2px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes bounce-in-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  25% {
+    transform: translateX(7px);
+  }
+  47% {
+    opacity: 1;
+    transform: translateX(-7px);
+  }
+  70% {
+    transform: translateX(3px);
+  }
+  85% {
+    transform: translateX(-2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes flip {
+  0% {
+    opacity: 0;
+    transform: perspective(400px) rotateY(180deg);
+  }
+  100% {
+    opacity: 1;
+    transform: perspective(400px) rotateY(0deg);
+  }
+}
+@keyframes flip-x {
+  0% {
+    opacity: 0;
+    transform: perspective(400px) rotateX(180deg);
+  }
+  100% {
+    opacity: 1;
+    transform: perspective(400px) rotateX(0deg);
+  }
+}
+@keyframes flip-z {
+  0% {
+    opacity: 0;
+    transform: perspective(400px) rotateZ(180deg);
+  }
+  100% {
+    opacity: 1;
+    transform: perspective(400px) rotateZ(0deg);
+  }
+}
+@keyframes hang {
+  0% {
+    opacity: 0;
+    transform: perspective(400px) rotateX(90deg);
+    transform-origin: center top;
+  }
+  10% {
+    opacity: 1;
+  }
+  25% {
+    transform: perspective(400px) rotateX(-20deg);
+  }
+  47% {
+    transform: perspective(400px) rotateX(20deg);
+  }
+  70% {
+    transform: perspective(400px) rotateX(-5deg);
+  }
+  85% {
+    transform: perspective(400px) rotateX(5deg);
+  }
+  100% {
+    transform: perspective(400px) rotateX(0deg);
+    transform-origin: center top;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .head1 {
     align-items: center;
